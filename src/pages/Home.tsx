@@ -1,7 +1,12 @@
+import Header from "../components/Header";
+
 const Home: React.FC = () => {
   return (
     <>
-      <div></div>
+      <Header></Header>
+      <div>
+        <h1>홈화면</h1>
+      </div>
     </>
   );
 };
