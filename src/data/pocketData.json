@@ -1,0 +1,166 @@
+{
+  "accounts": [
+    {
+      "id": "account1",
+      "name": "주계좌",
+      "records": [
+        {
+          "id": "rec1",
+          "date": "2025-04-01",
+          "amount": 50000,
+          "category": "Salary",
+          "type": "수입",
+          "accountId": "account1"
+        },
+        {
+          "id": "rec2",
+          "date": "2025-04-02",
+          "amount": 12000,
+          "category": "Food",
+          "type": "지출",
+          "accountId": "account1"
+        },
+        {
+          "id": "rec3",
+          "date": "2025-04-05",
+          "amount": 3000,
+          "category": "Transport",
+          "type": "지출",
+          "accountId": "account1"
+        },
+        {
+          "id": "rec4",
+          "date": "2025-04-10",
+          "amount": 20000,
+          "category": "Shopping",
+          "type": "지출",
+          "accountId": "account1"
+        },
+        {
+          "id": "rec5",
+          "date": "2025-04-15",
+          "amount": 10000,
+          "category": "Others",
+          "type": "수입",
+          "accountId": "account1"
+        },
+        {
+          "id": "rec6",
+          "date": "2025-04-18",
+          "amount": 8000,
+          "category": "Food",
+          "type": "지출",
+          "accountId": "account1"
+        },
+        {
+          "id": "rec7",
+          "date": "2025-04-22",
+          "amount": 15000,
+          "category": "Entertainment",
+          "type": "지출",
+          "accountId": "account1"
+        }
+      ],
+      "regular": [
+        {
+          "id": "reg1",
+          "startDate": "2025-04-01",
+          "amount": 1000000,
+          "category": "Salary",
+          "type": "수입",
+          "frequency": "monthly",
+          "dayOfMonth": 1,
+          "accountId": "account1"
+        },
+        {
+          "id": "reg2",
+          "startDate": "2025-04-05",
+          "amount": 12000,
+          "category": "Subscription",
+          "type": "지출",
+          "frequency": "monthly",
+          "dayOfMonth": 5,
+          "accountId": "account1"
+        },
+        {
+          "id": "reg3",
+          "startDate": "2025-04-15",
+          "amount": 5000,
+          "category": "Utilities",
+          "type": "지출",
+          "frequency": "monthly",
+          "dayOfMonth": 15,
+          "accountId": "account1"
+        }
+      ]
+    },
+    {
+      "id": "account2",
+      "name": "저축 계좌",
+      "records": [
+        {
+          "id": "rec8",
+          "date": "2025-04-03",
+          "amount": 100000,
+          "category": "Savings",
+          "type": "수입",
+          "accountId": "account2"
+        },
+        {
+          "id": "rec9",
+          "date": "2025-04-07",
+          "amount": 5000,
+          "category": "Others",
+          "type": "지출",
+          "accountId": "account2"
+        },
+        {
+          "id": "rec10",
+          "date": "2025-04-20",
+          "amount": 15000,
+          "category": "Shopping",
+          "type": "지출",
+          "accountId": "account2"
+        },
+        {
+          "id": "rec11",
+          "date": "2025-04-23",
+          "amount": 20000,
+          "category": "Savings",
+          "type": "수입",
+          "accountId": "account2"
+        },
+        {
+          "id": "rec12",
+          "date": "2025-04-25",
+          "amount": 7000,
+          "category": "Food",
+          "type": "지출",
+          "accountId": "account2"
+        }
+      ],
+      "regular": [
+        {
+          "id": "reg4",
+          "startDate": "2025-04-10",
+          "amount": 50000,
+          "category": "Savings",
+          "type": "수입",
+          "frequency": "monthly",
+          "dayOfMonth": 10,
+          "accountId": "account2"
+        },
+        {
+          "id": "reg5",
+          "startDate": "2025-04-20",
+          "amount": 3000,
+          "category": "Subscription",
+          "type": "지출",
+          "frequency": "monthly",
+          "dayOfMonth": 20,
+          "accountId": "account2"
+        }
+      ]
+    }
+  ]
+}
