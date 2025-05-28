@@ -1,5 +1,5 @@
 import type React from "react";
-import Calendar from "react-calendar";
+import Calendar, { type OnArgs } from "react-calendar";
 // import { MergedTransactions } from "../hooks/MergedTransactions";
 import type { MergedRecord } from "../hooks/MergedTransactions";
 
@@ -17,12 +17,11 @@ const CalendarView: React.FC<CalendarViewProps> = ({
   // const mergedRecords = MergedTransactions(selectedAccountId);
 
   // 월 변경 시 부모에 전달
-  const onActiveStartDateChange = ({
-    activeStartDate,
-  }: {
-    activeStartDate: Date;
-  }) => {
-    setSelectedMonth(activeStartDate);
+  const onActiveStartDateChange = ({ activeStartDate }: OnArgs) => {
+    // setSelectedMonth(activeStartDate);
+    if (activeStartDate) {
+      setSelectedMonth(activeStartDate);
+    }
   };
 
   // 각 날짜 타일에 금액 표시
