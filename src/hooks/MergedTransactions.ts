@@ -1,10 +1,10 @@
 import { useState, useEffect } from "react";
 import { getRecords, getRegularTransactions } from "../utils/transactions";
-import type { Database } from "../../types_db";
+// import type { Database } from "../../types_db";
 
-type RecordRow = Database["public"]["Tables"]["records"]["Row"];
-type RegularTransactionRow =
-  Database["public"]["Tables"]["regular_transactions"]["Row"];
+// type RecordRow = Database["public"]["Tables"]["records"]["Row"];
+// type RegularTransactionRow =
+//   Database["public"]["Tables"]["regular_transactions"]["Row"];
 
 export interface MergedRecord {
   id: string;

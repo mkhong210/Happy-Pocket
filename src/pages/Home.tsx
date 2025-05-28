@@ -2,7 +2,7 @@ import { useNavigate } from "react-router-dom";
 import AccountSelect from "../components/AccountSelect";
 import CalendarView from "../components/CalendarView";
 import ListView from "../components/ListView";
-import Monthly from "../components/Monthly";
+// import Monthly from "../components/Monthly";
 import { useAuth } from "../context/AuthContext";
 import { useEffect, useState } from "react";
 import { getAccounts } from "../utils/accounts";
