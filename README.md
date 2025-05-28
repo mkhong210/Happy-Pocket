@@ -1,4 +1,49 @@
-# React + TypeScript + Vite
+# HappyPocket
+
+<br />
+
+## 기획 개요
+
+**HappyPocket**은 React와 Supabase 기반의 개인 가계부 웹앱입니다.  
+사용자가 여러 계좌를 등록하고, 각 계좌별로 수입과 지출을 쉽게 기록·관리할 수 있도록 개발되었습니다.  
+정기 거래 관리, 월별 요약, 캘린더 및 리스트 뷰를 제공하여 체계적인 개인 재정 관리를 지원합니다.
+
+<br />
+
+## 기술 스택
+
+- **Frontend** : React (Typescript), Tailwind CSS
+- **데이터베이스 및 인증** : Supabase
+- **라이브러리** : react-calendar
+- **배포** : vercel
+  <!-- - **상태 관리** : React Context API (AuthContext) -->
+  <!-- - **기본 저장소** : LocalStorage (초기 버전) -->
+
+<br/>
+
+## 주요 기능
+
+- 계좌별 거래 내역 관리
+- 수입/지출 내역 추가
+- 거래 내역 캘린더 뷰 & 리스트 뷰 제공
+- 거래 내역 정기 거래(고정 지출/수입) 관리
+- 전역 인증 상태 관리를 위한 AuthProvider 적용
+  <!-- - 월별 수입/지출 요약 및 통계 제공 -->
+  <!-- - 로그인 및 인증 기능 구현 (Login 페이지, AuthContext, Supabase 연동) -->
+
+<br />
+
+## 🧪 테스트 계정
+
+Supabase에서 다음과 같은 테스트 계정을 생성하여 로그인 기능을 테스트할 수 있습니다.
+
+```
+이메일: testuser@happy.com
+비밀번호: test1234
+```
+
+<!-- 기존 readme -->
+<!-- # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
@@ -51,4 +96,4 @@ export default tseslint.config({
     ...reactDom.configs.recommended.rules,
   },
 })
-```
+``` -->
