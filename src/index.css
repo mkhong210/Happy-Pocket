@@ -8,10 +8,32 @@
 @import "tailwindcss/preflight.css" layer(base);
 @import "tailwindcss/utilities.css" layer(utilities);
 
-body {
+html,
+body,
+#root {
+  height: 100%;
   margin: 0;
+}
 
-  /* @apply m-0; */
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+/* react-calendar 커스텀 */
+.react-calendar {
+  width: 100%;
+  border: none;
+  border-radius: 0.5rem;
+  /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+}
+
+.react-calendar__tile--active {
+  background: #facc15;
+  color: white;
+}
+.react-calendar__month-view__weekdays__weekday abbr {
+  text-decoration: none;
 }
 
 /* :root {

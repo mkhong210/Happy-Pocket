@@ -18,6 +18,16 @@
   filter: drop-shadow(0 0 2em #61dafbaa);
 } */
 
+.container_wrap {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0 20px;
+  width: 100%;
+}
+body {
+  background-color: #f9fafb;
+}
+
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);
@@ -48,11 +58,21 @@
   border-radius: 0.5rem;
   /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
 }
-
+.react-calendar__tile--now {
+  background-color: #bfdbfe; /* 연한 파란색 */
+  border-radius: 0.5rem;
+  color: #1e40af; /* 짙은 파란색 */
+  font-weight: 600;
+}
 .react-calendar__tile--active {
-  background: #facc15;
+  background-color: #2563eb; /* 좀 더 진한 파란색 */
   color: white;
 }
+/* .react-calendar__tile--active {
+  background: #facc15;
+  color: white;
+} */
+
 .react-calendar__month-view__weekdays__weekday abbr {
   text-decoration: none;
 }
